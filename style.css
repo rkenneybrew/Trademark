@@ -1,0 +1,105 @@
+﻿/* Import Font */
+@font-face {
+    font-family: 'ComforterBrush-Regular'; /* Give your font a name */
+    /*src: url('path/to/your/font.woff2') format('woff2'),*/
+    src: url('ComforterBrush-Regular.woff') format('woff'), /* Specify the font file and its format */
+    url('ComforterBrush-Regular.woff') format('woff');
+    /*    You can include multiple file formats for better browser compatibility */
+}
+/* End of Import Font */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+}
+
+.visualize-container {
+    text-align: center;
+}
+
+header {
+    position: static;
+    justify-content: center;
+}
+
+div .text-container {
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+h1 {
+    border: outset;
+    border-radius: 1.5px;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+hr {
+    padding: 0;
+}
+
+p5 {
+    justify-content: center;
+    text-align: center;
+    color: #f9f9f9;
+}
+
+trademark {
+    font-family: ComforterBrush-Regular;
+    justify-content: center;
+    text-align: center;
+    color: darkred;
+}
+
+/* Audio Bass Visulizer */
+.visualizer-container {
+    position: relative;
+}
+
+canvas {
+    display: block;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+/* Watermark Placement */
+#watermark-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /*padding: 10px;*/
+    /*background-color: rgba(255, 255, 255, 0.5);*/ /* Adjust the background color and opacity */
+}
+
+/* Text */
+/*.watermark-text {
+    margin: 0;
+    font-size: 14px;
+    color: #555;  Adjust the text color 
+}*/
+
+/* Image */
+#watermark-image {
+    padding: 10px;
+    width: 100px; /* Adjust the width of the image */
+    height: auto;
+    opacity: 0.5; /* Adjust the opacity of the image */
+/*    z-index: 1;*/
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    padding: 10px;
+}
+
+h6 {
+    text-align: center;
+    color: #f9f9f9;
+}
