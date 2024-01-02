@@ -21,6 +21,21 @@ body {
     text-align: center;
 }
 
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 header {
     position: static;
     justify-content: center;
@@ -34,7 +49,7 @@ div .text-container {
 h1 {
     border: outset;
     border-radius: 1.5px;
-    padding: 0;
+    padding: 10px;
     justify-content: center;
     text-align: center;
     color: #f9f9f9;
