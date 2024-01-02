@@ -1,7 +1,4 @@
-﻿
-// require('dotenv').config();
-
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
     const audioElement = new Audio('./Trademark.mp3');
     const audioContext = new (window.AudioContext || window.webkitAudioContext)();
     const analyser = audioContext.createAnalyser();
