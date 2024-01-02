@@ -59,6 +59,26 @@ hr {
     padding: 0;
 }
 
+#imagePreview {
+    text-align: center;
+    margin: 50px;
+}
+
+#imageURL {
+    width: 70%;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#previewLink {
+    display: block;
+    margin-top: 10px;
+}
+
 p5 {
     justify-content: center;
     text-align: center;

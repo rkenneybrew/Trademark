@@ -51,6 +51,42 @@
         e.preventDefault();
     });
 
+//// Image Modal
+function openModal() {
+    document.getElementById('imageModal').style.display = 'block';
+  }
+  
+  function closeModal() {
+    document.getElementById('imageModal').style.display = 'none';
+  }
+  
+  // Attach the openModal function to the link
+  document.getElementById('openModalLink').addEventListener('click', openModal);  
+
+//// Image Preview Link
+function previewImage() {
+    var imageURL = document.getElementById("imageURL").value;
+    var previewLink = document.getElementById("previewLink");
+    
+    // Set the href attribute of the preview link
+    previewLink.href = imageURL;
+
+    // Create an image element for preview
+    var img = document.createElement("img");
+    img.src = imageURL;
+    img.alt = "Image Preview";
+    img.style.maxWidth = "100%";
+
+    // Remove existing child elements inside the preview link
+    while (previewLink.firstChild) {
+        previewLink.removeChild(previewLink.firstChild);
+    }
+
+    // Append the image to the preview link
+    previewLink.appendChild(img);
+}
+
+
     audioElement.addEventListener('canplay', () => {
         audioElement.play().then(() => {
             drawVisualizer();
