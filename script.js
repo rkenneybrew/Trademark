@@ -2,7 +2,7 @@
 // require('dotenv').config();
 
 document.addEventListener('DOMContentLoaded', () => {
-    const audioElement = new Audio('Trademark.mp3');
+    const audioElement = new Audio('./Trademark.mp3');
     const audioContext = new (window.AudioContext || window.webkitAudioContext)();
     const analyser = audioContext.createAnalyser();
     const source = audioContext.createMediaElementSource(audioElement);
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Add Watermark Image Dynamically
     document.addEventListener('DOMContentLoaded', function () {
         process.env.TRADEMARK_IMAGE = document.getElementById('watermark-image');
-        watermarkImage.src = 'process.env.TRADEMARK_IMAGE'; // Replace with the actual path to your image
+        watermarkImage.src = './Trademark.png'; // Replace with the actual path to your image
         watermarkImage.alt = 'Watermark Alt Text'; // Replace with appropriate alt text
     });
 
