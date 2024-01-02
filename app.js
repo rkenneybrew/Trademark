@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+const htm = require('htm');
+const html = htm.bind();
+
+const title = 'Audio Playback Visualizer';
+const content = 'Room Studio.';
+
+const template = html`
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -31,7 +37,7 @@
         <!--<p class="watermark-text">Your Watermark</p>-->
         <!--<p class="watermark-text">Trademark</p>-->
         <!--Watermark Image Placement-->
-        <a style="cursor: pointer;" href="https://239rickywaters.com" class="button" type="button"><img src="Trademark.png" alt="Watermark" id="watermark-image"></a>
+        <a style="cursor: pointer;" href="TRADEMARK_IMAGE" class="button" type="button"><img src="Trademark.png" alt="Watermark" id="watermark-image"></a>
     </div>
 
     <footer>
@@ -43,4 +49,6 @@
     <script src="script.js"></script>
 </body>
 </html>
+`;
 
+console.log(template);
