@@ -8,10 +8,10 @@
 Users/
 node_modules/
 
-ComforterBrush-Regular.woff
+# ComforterBrush-Regular.woff
 
-Trademark.mp3
-Trademark.png
+# Trademark.mp3
+# Trademark.png
 
 package-lock.json
 package.json
