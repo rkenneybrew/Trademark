@@ -14,12 +14,12 @@ node_modules/
 # Trademark.mp3
 # Trademark.png
 
-app.min.js
-script.min.js
+Trademark/app.min.js
+Trademark/script.min.js
 
-index.min.html
+Trademark/index.min.html
 
-style.min.css
+Trademark/style.min.css
 
 package-lock.json
 package.json
