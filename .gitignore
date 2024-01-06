@@ -6,20 +6,28 @@
 .gitignore
 .gitattributes
 
+_export/
+
 Users/
 node_modules/
+projs/
 
 # ComforterBrush-Regular.woff
 
 # Trademark.mp3
 # Trademark.png
 
-Trademark/app.min.js
-Trademark/script.min.js
+app.js
+app.min.js
+# -- 
+script.js
+script.min.js
 
-Trademark/index.min.html
+index.html
+index.min.html
 
-Trademark/style.min.css
+style.css
+style.min.css
 
 package-lock.json
 package.json
