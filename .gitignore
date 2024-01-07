@@ -19,16 +19,16 @@ projs/
 # Trademark.png
 
 app.js
-app.min.js
+/app.min.js
 # -- 
 script.js
-script.min.js
+/script.min.js
 
 index.html
-index.min.html
+/index.min.html
 
 style.css
-style.min.css
+/style.min.css
 
 package-lock.json
 package.json
