@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  opacity: 1;
+}
+
+.overlay-mask-container {
+  position: relative;
+}
+
+.overlay-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.5);
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.center-description {
+  text-align: center;
+}
+
+.video-container {
+  width: 426px;
+  height: 240px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: outset;
+  border-radius: 2.5px;
+  border-color: #f9f9f9;
+  /*position: fixed;*/
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.video-container > iframe {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+header {
+  position: absolute;
+  text-align: center;
+  top: 24%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+div > .text-container {
+  position: absolute;
+}
+
+div > .text-container2 {
+  padding: 2px;
+}
+
+h1 {
+  box-sizing: border-box;
+  border: outset;
+  border-radius: 1.5px;
+  padding: 10px;
+  text-align: center;
+  color: #f9f9f9;
+}
+
+hr {
+  width: 150px;
+  padding: .5px;
+}
+
+#imagePreview {
+  text-align: center;
+  margin: 50px;
+}
+
+#imageURL {
+  width: 70%;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#previewLink {
+  display: block;
+  margin-top: 10px;
+}
+
+p5 {
+  justify-content: center;
+  text-align: center;
+  color: #f9f9f9;
+}
+
+trademark {
+  font-family: ComforterBrush-Regular;
+  justify-content: center;
+  text-align: center;
+  color: #8b0000;
+}
+
+a {
+  color: #f9f9f9;
+}
+
+a:hover {
+  color: #8b0000;
+}
+
+.visualizer-container {
+  position: relative;
+}
+
+canvas {
+  display: block;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+#watermark-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#watermark-image {
+  padding: 10px;
+  width: 100px;
+  height: auto;
+  opacity: .5;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 10px;
+}
+
+h6 {
+  position: relative;
+  text-align: center;
+  color: #f9f9f9;
+}
+

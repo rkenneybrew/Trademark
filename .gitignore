@@ -2,7 +2,7 @@
 .env
 .rmv
 .vscode
-.github/
+.github
 .gitignore
 .gitattributes
 
@@ -18,16 +18,16 @@ projs/
 # Trademark.mp3
 # Trademark.png
 
-app.js
+#app.js
 /app.min.js
 # -- 
-script.js
+#script.js
 /script.min.js
 
-index.html
+#index.html
 /index.min.html
 
-style.css
+#style.css
 /style.min.css
 
 package-lock.json
