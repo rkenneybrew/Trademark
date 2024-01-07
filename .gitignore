@@ -7,7 +7,7 @@
 .gitattributes
 
 _export/
-assets/
+#assets/
 
 Users/
 node_modules/
