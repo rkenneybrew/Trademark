@@ -1,10 +1,4 @@
-const htm = require('htm');
-const html = htm.bind();
-
-const title = 'Audio Playback Visualizer';
-const content = 'Room Studio.';
-
-const template = html`
+const htm=require("htm"),html=htm.bind(),title="Audio Playback Visualizer",content="Room Studio.",template=html`
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -73,6 +67,4 @@ const template = html`
     <script src="script.js"></script>
 </body>
 </html>
-`;
-
-console.log(template);
+`;console.log(template);
