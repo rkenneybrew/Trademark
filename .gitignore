@@ -17,6 +17,7 @@ projs/
 
 Trademark.mp3
 # Trademark.png
+# Trademark2.png
 
 #app.js
 # --
@@ -31,6 +32,10 @@ assets/js/jquery.min.js
 assets/css/styles.css
 assets/css/style.min.css
 assets/css/styles.min.css
+
+#index.html
+# --
+index.min.html
 
 package-lock.json
 package.json
